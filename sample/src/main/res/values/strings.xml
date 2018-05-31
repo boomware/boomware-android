@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Boomware Sample</string>
+
+    <string name="phone_number_hint">Enter phone number</string>
+    <string name="verify_by_call">Verify by Call</string>
+    <string name="verify_by_sms">Verify by SMS</string>
+    <string name="verify_by_voice">Verify by Voice</string>
+    <string name="check_btn">Check code</string>
+    <string name="verification_completed">Verification completed for %1$s</string>
+
+    <string name="error_connection">Connection error. Please try again.</string>
+    <string name="error_wrong_code">Wrong code. Please try again</string>
+    <string name="error_wrong_number">Please enter a valid mobile number</string>
+
+</resources>
+
