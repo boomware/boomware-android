@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements BoomwareCallback,
         Log.d(TAG, "onVerificationCompleted: " + request.getId());
         codeEdit.setCodeWithoutListener(code);
 
-        Boomware.getInstance().bindNumber(request.getNumber());
+//        Boomware.getInstance().bindNumber(request.getNumber());
 
         // you should complete registration on your backend side
         // use API method POST /v1/verify/info

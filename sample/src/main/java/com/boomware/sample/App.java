@@ -12,6 +12,7 @@ public class App extends Application {
         super.onCreate();
 
         //Initialize Boomware instance (key from Account on https://boomware.com)
-        Boomware.initialize(this, "<your:api:jey>");
+        Boomware.initialize(this, "<api_key>");
+        Boomware.getInstance().setLogEnabled();
     }
 }
